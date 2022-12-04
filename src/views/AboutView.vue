@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <koala-park></koala-park>
 </template>
+<script>
+import KoalaPark from "@/views/KoalaPark.vue";
+
+export default {
+    name: "5566",
+    components: {
+        KoalaPark,
+    },
+};
+</script>
